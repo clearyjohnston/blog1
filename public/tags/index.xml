@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Cleary&#39;s blog</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on Cleary&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ggplot</title>
+      <link>https://example.org/tags/ggplot/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphs</title>
+      <link>https://example.org/tags/graphs/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Historgrams</title>
+      <link>https://example.org/tags/historgrams/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/historgrams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scatter Plot</title>
+      <link>https://example.org/tags/scatter-plot/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/scatter-plot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Historgrams on Cleary&#39;s blog</title>
+    <link>https://example.org/tags/historgrams/</link>
+    <description>Recent content in Historgrams on Cleary&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/historgrams/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Histograms</title>
+      <link>https://example.org/post/histograms/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/post/histograms/</guid>
+      <description>Histograms
+library(sqldf)## Warning: package &amp;#39;sqldf&amp;#39; was built under R version 3.4.2## Loading required package: gsubfn## Warning: package &amp;#39;gsubfn&amp;#39; was built under R version 3.4.2## Loading required package: proto## Warning: package &amp;#39;proto&amp;#39; was built under R version 3.4.2## Loading required package: RSQLite## Warning: package &amp;#39;RSQLite&amp;#39; was built under R version 3.4.1library(Lahman)## Warning: package &amp;#39;Lahman&amp;#39; was built under R version 3.4.2library(ggplot2)## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 3.</description>
+    </item>
+    
+  </channel>
+</rss>

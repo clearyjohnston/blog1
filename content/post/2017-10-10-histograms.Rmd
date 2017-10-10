@@ -1,0 +1,36 @@
+---
+title: Histograms
+author: Cleary Johnston
+date: '2017-10-10'
+slug: histograms
+categories:
+  - rstudio
+  - ggplot
+tags:
+  - ggplot
+  - graphs
+  - historgrams
+---
+
+Histograms
+```{r}
+library(sqldf)
+library(Lahman)
+library(ggplot2)
+```
+
+```{r}
+# extracting data----------------
+
+query<-"SELECT weight
+FROM Master"
+
+result<-sqldf(query)
+
+# visualizing data-------------
+
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="green",fill="white",bins="50")+
+  ggtitle("Body Weigh Distribution for Baseball Players")
+```
+
