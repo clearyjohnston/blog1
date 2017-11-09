@@ -63,7 +63,7 @@
 </footer>
 
     <p>Histograms
-library(sqldf) ## Loading required package: gsubfn ## Loading required package: proto ## Warning in doTryCatch(return(expr), name, parentenv, handler): unable to load shared object &#39;/Library/Frameworks/R.framework/Resources/modules//R_X11.so&#39;: ## dlopen(/Library/Frameworks/R.framework/Resources/modules//R_X11.so, 6): Library not loaded: /opt/X11/lib/libSM.6.dylib ## Referenced from: /Library/Frameworks/R.framework/Resources/modules//R_X11.so ## Reason: image not found ## Could not load tcltk. Will use slower R code instead. ## Loading required package: RSQLite library(Lahman) library(ggplot2) # extracting data&mdash;&mdash;&mdash;&mdash;&mdash;- query&lt;-&quot;SELECT weight FROM Master&quot; result&lt;-sqldf(query) # visualizing data&mdash;&mdash;&mdash;&mdash;- ggplot()+ geom_histogram(data=result,aes(x=weight),color=&quot;green&quot;,fill=&quot;white&quot;,bins=&quot;50&quot;)+ ggtitle(&quot;Body Weigh Distribution for Baseball Players&quot;) ## Warning: Removed 854 rows containing non-finite values (stat_bin).&hellip;</p>
+library(sqldf) library(Lahman) library(ggplot2) # extracting data&mdash;&mdash;&mdash;&mdash;&mdash;- query&lt;-&quot;SELECT weight FROM Master&quot; result&lt;-sqldf(query) # visualizing data&mdash;&mdash;&mdash;&mdash;- ggplot()+ geom_histogram(data=result,aes(x=weight),color=&quot;green&quot;,fill=&quot;white&quot;,bins=&quot;50&quot;)+ ggtitle(&quot;Body Weigh Distribution for Baseball Players&quot;) ## Warning: Removed 854 rows containing non-finite values (stat_bin).&hellip;</p>
     <a href="https://clearyjohnstonblog.netlify.com/post/histograms/" title="Histograms">Read more &raquo;</a>
 </article>
 
