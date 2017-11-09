@@ -13,8 +13,8 @@ theme = "hugo-minimalist-theme"
     site_description = "Quick R Tutorials."
     location = "Mercyhurst University"
     # Link custom assets relative to /static
-    avatar = "img/profile-image.png"
-    header_background = "img/desk.jpg"
+    avatar = "img/square4.jpg"
+    header_background = "img/long2.jpg"
     header_title = ""
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
