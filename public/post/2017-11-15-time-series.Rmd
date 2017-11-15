@@ -1,0 +1,39 @@
+---
+title: Time Series
+author: Cleary Johnston
+date: '2017-11-15'
+slug: time-series
+categories:
+  - time series
+tags:
+  - graphs
+  - time series
+---
+
+hello people this is the time series example.
+
+```{r warning=FALSE,message=FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+```{r}
+# Extraction----------------------------
+
+query<-"SELECT yearID,HR
+FROM Batting
+WHERE playerID='ruthba01'"
+
+result<-sqldf(query)
+
+# Visualization-------------------------
+
+ggplot()+
+  #geom_point(data=result,aes(x=yearID,y=HR))+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  ggtitle("Ruth's Homerun Totals Throughout the Years")+
+  xlab("Year")+
+  ylab("Homeruns")
+```
+

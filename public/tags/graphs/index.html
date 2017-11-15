@@ -7,7 +7,7 @@
         <meta name="author">
         <meta name="description" content="Quick R Tutorials.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="generator" content="Hugo 0.30" />
+        <meta name="generator" content="Hugo 0.30.2" />
         <link href="https://clearyjohnstonblog.netlify.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Cleary&#39;s blog" />
         <link href="https://clearyjohnstonblog.netlify.com/post/index.xml" rel="feed" type="application/rss+xml" title="Cleary&#39;s blog" />
         <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -43,6 +43,52 @@
     <main role="main" class="content">
         <a class="btn home" href="https://clearyjohnstonblog.netlify.com/" title="Back to home">&laquo; Back to home</a>
         
+        
+            <article class="post">
+    
+<h1><a href="https://clearyjohnstonblog.netlify.com/post/bar-plot/" title="Bar Plot">Bar Plot</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.11.15">2017.11.15</time>
+
+    &middot; Tagged in
+        
+        <a href="https://clearyjohnstonblog.netlify.com/tags/graphs">graphs</a>, 
+        
+        <a href="https://clearyjohnstonblog.netlify.com/tags/barplots">barplots</a>
+        
+    
+
+</span>
+</footer>
+
+    <p>hello this is a bar plot. youre welcome.
+library(Lahman) library(sqldf) library(ggplot2) query&lt;-&quot;SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR&quot; result&lt;-sqldf(query) result$name&lt;-factor(result$name,levels=result$name) ggplot()+ geom_bar(data=result,aes(x=name,y=HR),stat=&#39;identity&#39;,color=&quot;white&quot;,fill=&quot;blue&quot;)+ coord_flip()+ ylab(&quot;Homeruns&quot;)+ xlab(&quot;Teams&quot;)+ ggtitle(&quot;1980 Team Homerun Distribution&quot;)&hellip;</p>
+    <a href="https://clearyjohnstonblog.netlify.com/post/bar-plot/" title="Bar Plot">Read more &raquo;</a>
+</article>
+
+        
+            <article class="post">
+    
+<h1><a href="https://clearyjohnstonblog.netlify.com/post/time-series/" title="Time Series">Time Series</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.11.15">2017.11.15</time>
+
+    &middot; Tagged in
+        
+        <a href="https://clearyjohnstonblog.netlify.com/tags/graphs">graphs</a>, 
+        
+        <a href="https://clearyjohnstonblog.netlify.com/tags/time-series">time series</a>
+        
+    
+
+</span>
+</footer>
+
+    <p>hello people this is the time series example.
+library(Lahman) library(sqldf) library(ggplot2) # Extraction&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- query&lt;-&quot;SELECT yearID,HR FROM Batting WHERE playerID=&#39;ruthba01&#39;&quot; result&lt;-sqldf(query) # Visualization&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- ggplot()+ #geom_point(data=result,aes(x=yearID,y=HR))+ geom_line(data=result,aes(x=yearID,y=HR))+ ggtitle(&quot;Ruth&#39;s Homerun Totals Throughout the Years&quot;)+ xlab(&quot;Year&quot;)+ ylab(&quot;Homeruns&quot;)&hellip;</p>
+    <a href="https://clearyjohnstonblog.netlify.com/post/time-series/" title="Time Series">Read more &raquo;</a>
+</article>
+
         
             <article class="post">
     

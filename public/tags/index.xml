@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://clearyjohnstonblog.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Barplots</title>
+      <link>https://clearyjohnstonblog.netlify.com/tags/barplots/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://clearyjohnstonblog.netlify.com/tags/barplots/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ggplot</title>
@@ -24,7 +33,7 @@
     <item>
       <title>Graphs</title>
       <link>https://clearyjohnstonblog.netlify.com/tags/graphs/</link>
-      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://clearyjohnstonblog.netlify.com/tags/graphs/</guid>
       <description></description>
@@ -45,6 +54,15 @@
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://clearyjohnstonblog.netlify.com/tags/scatter-plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://clearyjohnstonblog.netlify.com/tags/time-series/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://clearyjohnstonblog.netlify.com/tags/time-series/</guid>
       <description></description>
     </item>
     

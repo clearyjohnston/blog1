@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://clearyjohnstonblog.netlify.com/post/bar-plot/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clearyjohnstonblog.netlify.com/post/time-series/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://clearyjohnstonblog.netlify.com/post/histograms/</loc>
@@ -12,13 +23,26 @@
   </url>
   
   <url>
+    <loc>https://clearyjohnstonblog.netlify.com/categories/bar-plot/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://clearyjohnstonblog.netlify.com/tags/barplots/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://clearyjohnstonblog.netlify.com/categories/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://clearyjohnstonblog.netlify.com/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +60,7 @@
   
   <url>
     <loc>https://clearyjohnstonblog.netlify.com/tags/graphs/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,7 +72,7 @@
   
   <url>
     <loc>https://clearyjohnstonblog.netlify.com/post/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,7 +90,19 @@
   
   <url>
     <loc>https://clearyjohnstonblog.netlify.com/tags/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://clearyjohnstonblog.netlify.com/tags/time-series/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://clearyjohnstonblog.netlify.com/categories/time-series/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

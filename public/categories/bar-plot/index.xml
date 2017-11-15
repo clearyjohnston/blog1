@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bar Plot on Cleary&#39;s blog</title>
+    <link>https://clearyjohnstonblog.netlify.com/categories/bar-plot/</link>
+    <description>Recent content in Bar Plot on Cleary&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Wed, 15 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://clearyjohnstonblog.netlify.com/categories/bar-plot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bar Plot</title>
+      <link>https://clearyjohnstonblog.netlify.com/post/bar-plot/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://clearyjohnstonblog.netlify.com/post/bar-plot/</guid>
+      <description>hello this is a bar plot. youre welcome.
+library(Lahman) library(sqldf) library(ggplot2) query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR&amp;quot; result&amp;lt;-sqldf(query) result$name&amp;lt;-factor(result$name,levels=result$name) ggplot()+ geom_bar(data=result,aes(x=name,y=HR),stat=&amp;#39;identity&amp;#39;,color=&amp;quot;white&amp;quot;,fill=&amp;quot;blue&amp;quot;)+ coord_flip()+ ylab(&amp;quot;Homeruns&amp;quot;)+ xlab(&amp;quot;Teams&amp;quot;)+ ggtitle(&amp;quot;1980 Team Homerun Distribution&amp;quot;) </description>
+    </item>
+    
+  </channel>
+</rss>

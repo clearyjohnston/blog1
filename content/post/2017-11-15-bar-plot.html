@@ -1,0 +1,34 @@
+---
+title: Bar Plot
+author: Cleary Johnston
+date: '2017-11-15'
+slug: bar-plot
+categories:
+  - bar plot
+tags:
+  - graphs
+  - barplots
+---
+
+
+
+<p>hello this is a bar plot. youre welcome.</p>
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<pre class="r"><code>query&lt;-&quot;SELECT name,HR
+FROM Teams
+WHERE yearID=1980
+ORDER BY HR&quot;
+
+result&lt;-sqldf(query)
+
+result$name&lt;-factor(result$name,levels=result$name)
+
+ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat=&#39;identity&#39;,color=&quot;white&quot;,fill=&quot;blue&quot;)+
+  coord_flip()+
+  ylab(&quot;Homeruns&quot;)+
+  xlab(&quot;Teams&quot;)+
+  ggtitle(&quot;1980 Team Homerun Distribution&quot;)</code></pre>
+<p><img src="/post/2017-11-15-bar-plot_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
