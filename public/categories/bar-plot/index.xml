@@ -18,8 +18,9 @@
       <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://clearyjohnstonblog.netlify.com/post/bar-plot/</guid>
-      <description>hello this is a bar plot. youre welcome.
-library(Lahman) library(sqldf) library(ggplot2) query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR&amp;quot; result&amp;lt;-sqldf(query) result$name&amp;lt;-factor(result$name,levels=result$name) ggplot()+ geom_bar(data=result,aes(x=name,y=HR),stat=&amp;#39;identity&amp;#39;,color=&amp;quot;white&amp;quot;,fill=&amp;quot;blue&amp;quot;)+ coord_flip()+ ylab(&amp;quot;Homeruns&amp;quot;)+ xlab(&amp;quot;Teams&amp;quot;)+ ggtitle(&amp;quot;1980 Team Homerun Distribution&amp;quot;) </description>
+      <description>Barplots
+In this blog I will be walking you through the steps to creating a barplot using RStudio. As always the firt step is to bring in the packages we will need to complete this using the library command:
+library(Lahman) library(sqldf) library(ggplot2) Step two is extracting the data. For this example we wioll be looking at the 1980 baseball teams homerun distribution. We can gather this data from the Lahman tables using an sqldf query.</description>
     </item>
     
   </channel>

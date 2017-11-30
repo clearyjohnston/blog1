@@ -7,7 +7,7 @@
         <meta name="author">
         <meta name="description" content="Quick R Tutorials.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="generator" content="Hugo 0.30.2" />
+        <meta name="generator" content="Hugo 0.31" />
         <link href="https://clearyjohnstonblog.netlify.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Cleary&#39;s blog" />
         <link href="https://clearyjohnstonblog.netlify.com/post/index.xml" rel="feed" type="application/rss+xml" title="Cleary&#39;s blog" />
         <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -60,10 +60,12 @@
 </span>
 </footer>
 
-            <p>hello this is a bar plot. youre welcome.</p>
+            <p>Barplots</p>
+<p>In this blog I will be walking you through the steps to creating a barplot using RStudio. As always the firt step is to bring in the packages we will need to complete this using the library command:</p>
 <pre class="r"><code>library(Lahman)
 library(sqldf)
 library(ggplot2)</code></pre>
+<p>Step two is extracting the data. For this example we wioll be looking at the 1980 baseball teams homerun distribution. We can gather this data from the Lahman tables using an sqldf query. Step three then is to us ggplot() and tell the program the type of graph (barplot), what data (result), and how we would like the data to be displayed. Note i added x and y lables as well as a title.</p>
 <pre class="r"><code>query&lt;-&quot;SELECT name,HR
 FROM Teams
 WHERE yearID=1980

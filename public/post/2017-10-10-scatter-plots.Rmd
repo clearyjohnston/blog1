@@ -13,16 +13,11 @@ tags:
 ---
 
 Scatter Plots
-
-In this blog I will be showing you how to make a scatter plot using RStudio. As alwats the first step will be to being in all the packages we will need using the library funstion:
-
 ```{r message=FALSE, warning=FALSE}
 library(sqldf)
 library(Lahman)
 library(ggplot2)
 ```
-
-Step two is extracting the data. In the example we will be looking at the career strikeouts and homeruns of the greatest hitters of all time. This data can be gathered using an sqldf query and specifying that the sum homeruns for the players is greater than or equal to 400. Step three is visualizing the data. This is where we us ggplot() and tell the program the data (result) we want it to graph as well as how we would like the scatter plot to look. Note the size and color of the points are adjutable and I also added x and y lables as well as a title. 
 
 ```{r}
 # extracting data ----------------

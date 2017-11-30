@@ -7,7 +7,7 @@
         <meta name="author">
         <meta name="description" content="Quick R Tutorials.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="generator" content="Hugo 0.30.2" />
+        <meta name="generator" content="Hugo 0.31" />
         <link href="https://clearyjohnstonblog.netlify.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Cleary&#39;s blog" />
         <link href="https://clearyjohnstonblog.netlify.com/post/index.xml" rel="feed" type="application/rss+xml" title="Cleary&#39;s blog" />
         <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -61,8 +61,9 @@
 </span>
 </footer>
 
-    <p>hello people this is the time series example.
-library(Lahman) library(sqldf) library(ggplot2) # Extraction&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- query&lt;-&quot;SELECT yearID,HR FROM Batting WHERE playerID=&#39;ruthba01&#39;&quot; result&lt;-sqldf(query) # Visualization&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- ggplot()+ #geom_point(data=result,aes(x=yearID,y=HR))+ geom_line(data=result,aes(x=yearID,y=HR))+ ggtitle(&quot;Ruth&#39;s Homerun Totals Throughout the Years&quot;)+ xlab(&quot;Year&quot;)+ ylab(&quot;Homeruns&quot;)&hellip;</p>
+    <p>Time Series
+In this blog we I will be walking you through how I form a time series graph using RStudio. To begin we will need to bring in the required packages using the library command:
+library(Lahman) library(sqldf) library(ggplot2) Step two is extracting the data. In this example we will be creating a time series of Babe Ruth’s total homeruns over his baseball career. We can collect this informating using an sqldf query search and storing the results in ‘result’ making it easy to apply to our graph later.&hellip;</p>
     <a href="https://clearyjohnstonblog.netlify.com/post/time-series/" title="Time Series">Read more &raquo;</a>
 </article>
 
